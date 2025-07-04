@@ -4,12 +4,12 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-		
+	<meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' https://embed.twitch.tv http://localhost:* https://localhost:*;">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Aganila’s Second Trip Around the Sun!</title>
+	<title>Aganila's Second Trip Around the Sun!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Aganila’s 2nd Birthday" />
+	<meta name="description" content="Aganila's 2nd Birthday" />
 	<meta name="author" content="ykcse1" />
 	 <!-- Load the Twitch embed script -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
@@ -51,200 +51,131 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
-	
-	<header role="banner" id="qbootstrap-header">
-		<div class="container">
-			<!-- <div class="row"> -->
-		    <nav class="navbar navbar-default">
-	        <div class="navbar-header">
-	        	<!-- Mobile Toggle Menu Button -->
-				<a href="#" class="js-qbootstrap-nav-toggle qbootstrap-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-	          	<a class="navbar-brand" href="index.html">Birthday</a> 
-	        </div>
-	        <div id="navbar" class="navbar-collapse collapse">
-	          <ul class="nav navbar-nav navbar-right">
-	            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-	            <li><a href="#" data-nav-section="when-where"><span>Live Stream</span></a></li>
-	            <li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>
-	          </ul>
-	        </div>
-		    </nav>
-		  <!-- </div> -->
-	  </div>
-	</header>
-	
-	<div class="qbootstrap-hero" data-section="home">
-		<div class="qbootstrap-overlay"></div>
-		<div class="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/kumarbg.png);">
-			<div class="display-t">
-				<div class="display-tc">
-					<div class="container">
-						<div class="col-md-6"> 
-							<div class="animate-box svg-sm colored">
-								<img src="images/flaticon/svg/004-nature.svg" class="svg" alt="kumar">
-								<h1 class="holder"><span>Tiny Toes Turn Two</span></h1>
-								<h2>Twice the Love, Twice the Joy<br><span>&#128150;<br></span> Aganila Turning 2!</h2>
-								<p id="local-event-time">July 13, 2025.</p>
-							</div>							
-							
-						</div>
-										
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
-	
-	<div id="qbootstrap-countdown" style="background-image: url(images/cover_bg_2.jpg);" data-section="wedding-day">
-		<div class="overlay"></div>
-		<div class="display-over">
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-4 section-heading text-center svg-sm colored">
-						<h2 class="">Birthday celebrations on</h2>
-						<span class="datewed" id="local-event-time">Sunday, July 13, 2025 <br>6:00 PM CT</span>
-					</div>
-					<div width=80%>				 
-					  <div id="timer"></div>
-					</div>
-				</div>
-				
-		</div>
-	</div>
+  <header role="banner" id="qbootstrap-header">
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <!-- Mobile Toggle Menu Button -->
+          <a href="#" class="js-qbootstrap-nav-toggle qbootstrap-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+          <a class="navbar-brand" href="index.html" style="font-size: x-large;">அகநிலா &#127765; பிறந்தநாள்</a> 
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+            <li><a href="#" data-nav-section="when-where"><span>Live Stream</span></a></li>
+            <li><a href="#" data-nav-section="rsvp"><span>RSVP</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
 
+  <div class="qbootstrap-hero" data-section="home">
+    <div class="qbootstrap-overlay"></div>
+    <div class="qbootstrap-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/kumarbg.jpg);">
+      <div class="display-t">
+        <div class="display-tc">
+          <div class="container">
+            <div class="col-md-12"> 
+              <div class="animate-box svg-sm colored">
+                <img src="images/flaticon/svg/004-nature.svg" class="svg" alt="Baby">
+                <h1 class="holder"><span>Tiny Toes &#128118; Turns Two</span></h1>
+                <h2>Aganila's 2nd Birthday!<br><span>&#128150;<br></span>Twice the Love, Twice the Joy </h2>
+                <!-- <p id="local-event-time">July 13, 2025.</p> -->
+              </div>                            
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-	<div id="qbootstrap-when-where" data-section="when-where">
-		<div class="container">
-		<!--	<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<h2>Live Streaming of Moment</h2>
-						<div class="row">
-						<div class="col-md-10 col-md-offset-1 subtext">
-							<div class="covidbc">Due to COVID protocols applied in Tamilnadu, We miss your presence in this Event, but to have You,YourBlessings and Your Wishes, We are Streaming this here!</div>
-						</div>
-					</div>
-					</div>
-				</div>
-			</div>-->
-  	
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12 text-center animate-box">
-					<div class="row wedding-events" style="background:black;">
-						<div class="col-md-8 ceremony-bg" > 							
-							<div id="twitch-embed" style="width: 100%; height: 100%;">
-							<img src="images/load.gif" style="object-fit: cover;">
-							</div>
-						</div>											
-							<div class="col-md-4 ">
-								<div class="desc">
-									<h3>Live Starts on</h3>
-								
-								<div class="date"> 
-									<i class="icon-clock2"></i>
-									<span id="local-event-time"></span><br><br>
-									<p>You can watch the live stream at your local time above!</p>
-								</div>
-								</div>
-														
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div id="map" class="qbootstrap-map"></div>
-				</div>
-			</div>
-		</div>
-		</div>
-	</div>
-
-	
-
-	<div id="qbootstrap-started" class="qbootstrap-bg" data-section="rsvp" data-stellar-background-ratio="0.5" style="background-image: url(images/couple-3.jpg);">
-		<div class="overlay"></div>
+  <div id="qbootstrap-countdown" style="background-image: url(images/cover_bg_2.jpg);" data-section="wedding-day">
+    <div class="overlay"></div>
+	<div class="display-over">
 		<div class="container">
 			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="col-md-12 text-center section-heading svg-sm colored">
-						<img src="images/flaticon/svg/005-two.svg" class="svg" alt="Free HTML5 Bootstrap Template by QBootstrap.com">
-						<h2>You Are Invited</h2>
-						<div class="row">
-						<div class="col-md-10 col-md-offset-1 subtext">
-							<div class="covidbc">RSVP for Celebrating 2 Magical Years of Aganila!</div>
-						</div>
-					</div>
-					</div>
+				<div class="col-md-12 section-heading text-center svg-sm colored">
+					<h2>Birthday Countdown 🥳</h2>
+					<span class="datewed" id="local-event-time">Sunday, July 13, 2025 <br>6:00 PM CT</span>
 				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" onclick="tst()"class="btn btn-default btn-block">I am Attending</button>
-						</div>
-					</form>
+				<div width="80%">
+					<div id="timer"></div>	
 				</div>
 			</div>
 		</div>
 	</div>
-	<script>
-function tst() {
-	var doc=document;
-	var usr=doc.getElementById('name').value;
-	var ema=doc.getElementById('email').value;
-	if(ema!="")
-	{
-	 alert("Enter Your Email");
-	}
-	if(usr!="")
-	{
-  alert("Thanks "+usr+"! See you on Live");
-}
-else
-{
-	 alert("Enter Your name");
-}
-}
-</script>
+  </div>
 
-	<footer id="footer" role="contentinfo">
-		<div class="container">
-			<!-- <div class="row row-bottom-padded-sm">
-				<div class="col-md-12">
-					<p class="copyright text-center">  <a href="#" target="_blank">S. Yogesh Kumar</a></p>
-				</div>
-			</div> -->
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<ul class="social social-circle">
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/yogesh-kumar-srinivasan-porur/" target="_blank"><i class="icon-linkedin"></i></a></li>
-						<li><a href="https://www.facebook.com/profile.php?id=100007960513902" target="_blank"><i class="icon-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/yogesh01_06/" target="_blank"><i class="icon-instagram" ></i></a></li>
-					</ul>
+<div id="qbootstrap-when-where" data-section="when-where">
+	<div class="container">
+		<div class="row row-bottom-padded-md">
+			<div class="col-md-12 text-center animate-box">
+				<div class="row wedding-events text-center" style="background:black;">
+					<div class="col-md-8">
+						<div id="twitch-embed" style="height: 62vh;">
+							<!-- <img src="images/load.gif" style="object-fit: cover;"> -->
+						</div>
+					</div>
+					<div class="col-md-4">
+
+						<div class="desc">
+							<h3>Streaming on</h3>
+							<div class="date">
+								<i class="icon-clock2"></i>
+								<span id="local-event-time"></span><br>
+								<i class="icon-map-marker"></i>
+								<p>Ironwood Club House<br>1901 N Towanda Ave<br>Normal, IL, 61761<br></p>
+								<iframe title="Google Map" width="100%" height="240" loading="lazy" allowfullscreen=""
+									class="view-invitation__map" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_HBgK1hH6p_objGC8hVBt_PVxvJHjjYU
+						   					 &amp;q=place_id:ChIJ5WEJodFwC4gRxf7i3kqPF-g"></iframe>
+								<div>
+									<p>Contact:</p><span>Sasitharan Parthiban<br>Divya Boopathy</span><br>
+									<ul class="social social-circle">
+										<li><a href="tel:13093100959"><i class="icon-phone"></i></a></li>
+										<li><a href="https://wa.me/13093100959https://api.whatsapp.com/send/?phone=13093100959&text=Hello%20Sasi&type=phone_number&app_absent=0"><i
+													class="icon-whatsapp"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
+	</div>
+</div>
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+			
+          <ul class="social social-circle">
+            <li><a href="https://www.linkedin.com/in/yogesh-kumar-srinivasan-porur/" target="_blank"><i class="icon-linkedin"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100007960513902" target="_blank"><i class="icon-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/yogesh01_06/" target="_blank"><i class="icon-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+<script>
+    function tst() {
+      var doc = document;
+      var usr = doc.getElementById('name').value;
+      var ema = doc.getElementById('email').value;
+      if (ema == "") {
+        alert("Enter Your Email");
+      }
+      if (usr != "") {
+        alert("Thanks " + usr + "! See you on Live");
+      } else {
+        alert("Enter Your name");
+      }
+    }
+  </script>
 	<script>
 		function getEventDateAndTimeLocalZone() {
 			// Base event time in Central Time (CT = UTC-5 in July)
@@ -284,18 +215,12 @@ else
 			const localEndTime = new Intl.DateTimeFormat('en-US', timeOptions).format(eventEndCT);
 
 			// Final formatted string
-			return `${localDate} ${tzName} ${localStartTime} – ${localEndTime}`;
+			return `${localDate} \n ${localStartTime} to ${localEndTime} [${tzName}] `;
 			}
-			 document.addEventListener("DOMContentLoaded", function() {
-				const elements = document.querySelectorAll('local-event-time');
+			document.addEventListener("DOMContentLoaded", function () {
 				const localTime = getEventDateAndTimeLocalZone();
-				console.log(localTime,(elements).length, elements)
-
-				elements.forEach(function(el) {
-					el.innerText = localTime;
-				});
-				});
-
+				document.querySelectorAll("#local-event-time").forEach(el => el.innerText = localTime);
+			});
 		</script>
 	<script type="text/javascript">
 		var embed = new Twitch.Embed("twitch-embed", {
@@ -330,10 +255,8 @@ else
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Parallax -->
 	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
-	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 
 	</body>
